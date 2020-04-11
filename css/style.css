@@ -1,0 +1,84 @@
+/* CSS Document */
+
+html {
+	background-color: #FFF;
+	background-image: url('../images/main-bg1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-ms-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	}
+body{ background:none !important;}
+#login {
+    padding: 14% 0 0;
+    width: 900px;
+}
+.login label{ color:#FFF !important;}
+#login h1{ text-align:center;}
+.login h1 a {
+    background-image: url("../images/logo-new.png") !important;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 247px !important;
+    width: 400px !important;
+}
+.login h1 a {
+    float: left;
+    margin: 20px auto 0 30px;
+}
+#lostpasswordform{ background-color:#CC0000 !important; border-radius:8px !important; margin-top:54px !important;}
+#login form{
+    background-image: url("../images/info-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login form {
+    background-color: transparent;
+    padding: 30px 70px;
+    width: 300px;
+}
+.login form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    font-weight: 400;
+    margin-left: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 26px 24px 46px;
+}
+
+
+.login #backtoblog, .login #nav {
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.login #backtoblog, .login #nav {
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: right;
+}
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0 24px;
+}
+.wp-core-ui .button-primary, .button{
+	background-color:#000000 !important;
+	border:#000000 1px solid !important;
+	width:140px !important;
+	}
+
+.wp-core-ui .button-primary{box-shadow:none !important;}
+
+.wp-core-ui .button-primary:hover{background-color:#666;}
+.message-view{ padding:8px; background-color:#FFF; margin-top:-70px; text-align:center;}
+#login_error{ margin-top:-100px;}
+/*.message{ margin-top:-60px !important;}*/
