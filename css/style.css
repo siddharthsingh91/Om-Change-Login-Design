@@ -12,13 +12,18 @@ html {
 	-o-background-size: contain;
 	background-size: contain;
 	}
-body{ background:none !important;}
+body{background-image: url('../images/main-bg1.jpg'); padding-top:40px;}
 #login {
-    padding: 14% 0 0;
+    /* padding: 14% 0 0; */
+    padding:20px;
     width: 900px;
+    background-color: rgb(231, 231, 231);
+    border-radius:10px;
+    box-shadow:1px 1px 8px 8px #ccc;
 }
 .login label{ color:#FFF !important;}
 #login h1{ text-align:center;}
+#login h3{color: #919090;text-align:center;width:100%;display: block;}
 .login h1 a {
     background-image: url("../images/logo-new.png") !important;
     background-position: left top;
@@ -39,18 +44,20 @@ body{ background:none !important;}
     background-size: contain;
 }
 #login form {
-    background-color: transparent;
+    background-color: #cc0000;
     padding: 30px 70px;
     width: 300px;
+    border-radius:10px;
 }
 .login form {
-    background: #fff none repeat scroll 0 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
-    font-weight: 400;
-    margin-left: 0;
-    margin-top: 20px;
-    overflow: hidden;
-    padding: 26px 24px 46px;
+	/* background-image: url("../images/info-bg.png"); */
+	/* background: #fff none repeat scroll 0 0; */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 20px;
+	overflow: hidden;
+	padding: 26px 24px 46px;
 }
 
 
@@ -82,3 +89,11 @@ body{ background:none !important;}
 .message-view{ padding:8px; background-color:#FFF; margin-top:-70px; text-align:center;}
 #login_error{ margin-top:-100px;}
 /*.message{ margin-top:-60px !important;}*/
+
+@media (min-width: 100px) and (max-width: 600px) {
+#login form{ border-radius:0px;}	
+body{ padding:0px; }	
+#login{width:100% !important;padding: 0px;margin: auto;box-shadow:none !important; border-radius:0px;}
+.login h1 a{width: 100% !important;display: block;margin: auto !important;padding: 0px;background-position: center;}
+#login form{width: auto;/* padding: 0px; */}
+}
