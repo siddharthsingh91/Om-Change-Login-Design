@@ -10,7 +10,7 @@ jQuery(document).ready(function(e) {
 	
 	if(message!=""){jQuery("#login h1").after('<p class="message-view">*'+message+'</p>');}
 	jQuery(".message").hide();
-    jQuery("#login h1").after('<h3>Welcome please enter your <strong>Username</strong> and <strong>Password</strong>.</h3>');
+    jQuery("#login h1").after('<h3><span>WELCOME </span><br/> "The difference between ordinary and extraordinary is that little extra".</h3>');
 	
 	jQuery("#backtoblog").html('<a title="Are you lost?" href="http://www.alacart.com">← Back to www.alacart.com</a>');
 });

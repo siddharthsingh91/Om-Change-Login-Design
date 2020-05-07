@@ -2,7 +2,7 @@
 /* Plugin Name: Om Change Login Design
  * Plugin URI: http://sanditsolution.com/
  * Description: Change Login Design
- * Version: 1.0.02
+ * Version: 1.0.08
  * Author:Siddharth Singh
  * Author URI:http://sanditsolution.com/about
  * License: GPLv3

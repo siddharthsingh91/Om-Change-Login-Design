@@ -2,7 +2,7 @@
 
 html {
 	background-color: #FFF;
-	background-image: url('../images/main-bg1.jpg');
+	background-image: url('../images/bg.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	
@@ -12,24 +12,29 @@ html {
 	-o-background-size: contain;
 	background-size: contain;
 	}
-body{background-image: url('../images/main-bg1.jpg'); padding-top:40px;}
+body{background-image: url('../images/bg.jpg');
+    background-repeat:0px 0px
+    background-repeat: no-repeat;
+    background-size: cover;
+padding-top:40px;background-color:#fff;}
 #login {
     /* padding: 14% 0 0; */
     padding:20px;
     width: 900px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255,.96);
     border-radius:10px;
     box-shadow:1px 1px 8px 8px #ccc;
 }
 .login label{ color:#FFF !important;}
 #login h1{ text-align:center;}
-#login h3{color: #919090;text-align:center;width:100%;display: block;}
+#login h3{color: #010101;text-align:center;width:100%;display: block;/* clear: both; */font-size: 18px;/* font-family: "Times New Roman", Times, serif; */font-weight:400;}
+#login h3 span{font-weight: bolder !important; font-size:28px;} 
 .login h1 a {
     background-image: url("../images/logo-new.png") !important;
-    background-position: left top;
+    background-position: -8px top;
     background-repeat: no-repeat;
     background-size: inherit;
-    height: 247px !important;
+    height: 400px !important;
     width: 400px !important;
 }
 .login h1 a {
@@ -44,7 +49,7 @@ body{background-image: url('../images/main-bg1.jpg'); padding-top:40px;}
     background-size: contain;
 }
 #login form {
-    background-color: #cc0000;
+    background-color: #22c5ed;
     padding: 30px 70px;
     width: 300px;
     border-radius:10px;
@@ -86,7 +91,7 @@ body{background-image: url('../images/main-bg1.jpg'); padding-top:40px;}
 .wp-core-ui .button-primary{box-shadow:none !important;}
 
 .wp-core-ui .button-primary:hover{background-color:#666;}
-.message-view{ padding:8px; background-color:#FFF; margin-top:-70px; text-align:center;}
+.message-view{padding:8px;background-color:#FFF;margin-top:-70px;text-align:center;display: none;}
 #login_error{ margin-top:-100px;}
 /*.message{ margin-top:-60px !important;}*/
 
